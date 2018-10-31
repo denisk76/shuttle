@@ -5,11 +5,13 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ConditionalOnClass(TestMission.class)
 @EnableConfigurationProperties(TestMissionProperties.class)
+@ComponentScan("ru.bmsgroup.controllers")
 public class TestMissionAutoConfiguration {
     @Autowired
     private TestMissionProperties missionProperties;
