@@ -16,7 +16,7 @@ public class GreatMissionAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    public GreatMission greatMission() {
+    public MissionService greatMission() {
         return new GreatMission(missionProperties.getPilotName());
     }
 

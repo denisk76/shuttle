@@ -26,4 +26,9 @@ public class TestMission implements MissionService {
     public String landing() {
         return "Test landing";
     }
+
+    @Override
+    public String homeward() {
+        return "Test towards the house";
+    }
 }

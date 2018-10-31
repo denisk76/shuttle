@@ -8,4 +8,6 @@ public interface MissionService {
     String flight();
 
     String landing();
+
+    String homeward();
 }

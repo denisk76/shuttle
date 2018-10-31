@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>10</java.version>
-        <spring-boot-version>2.0.6.RELEASE</spring-boot-version>
+        <spring-boot-version>2.1.0.RELEASE</spring-boot-version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
     </properties>
 
@@ -24,6 +24,9 @@
         <module>mission-spring-boot-starter</module>
         <module>test-mission</module>
         <module>great-mission</module>
+        <module>return-mission</module>
+        <module>return-mission-spring-boot-autoconfigure</module>
+        <module>return-mission-spring-boot-starter</module>
     </modules>
     <dependencyManagement>
         <dependencies>

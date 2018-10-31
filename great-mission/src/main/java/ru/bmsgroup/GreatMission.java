@@ -26,4 +26,9 @@ public class GreatMission implements MissionService{
     public String landing() {
         return "great landing";
     }
+
+    @Override
+    public String homeward() {
+        return "Great towards the house";
+    }
 }

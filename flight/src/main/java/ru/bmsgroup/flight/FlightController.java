@@ -14,9 +14,9 @@ public class FlightController {
     public String flight() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder
-                .append(missionService.startTheEngine()).append(System.lineSeparator())
-                .append(missionService.takeoff()).append(System.lineSeparator())
-                .append(missionService.flight()).append(System.lineSeparator())
+                .append(missionService.startTheEngine()).append(" <br> ").append(System.lineSeparator())
+                .append(missionService.takeoff()).append(" <br> ").append(System.lineSeparator())
+                .append(missionService.flight()).append(" <br> ").append(System.lineSeparator())
                 .append(missionService.landing());
         System.out.println(stringBuilder.toString());
         return stringBuilder.toString();

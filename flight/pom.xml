@@ -42,6 +42,11 @@
             <artifactId>mission-spring-boot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>ru.bmsgroup</groupId>
+            <artifactId>return-mission-spring-boot-starter</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

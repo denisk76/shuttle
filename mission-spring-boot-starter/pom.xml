@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>ru.bmsgroup</groupId>
-            <artifactId>great-mission-spring-boot-autoconfigure</artifactId>
+            <artifactId>test-mission-spring-boot-autoconfigure</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

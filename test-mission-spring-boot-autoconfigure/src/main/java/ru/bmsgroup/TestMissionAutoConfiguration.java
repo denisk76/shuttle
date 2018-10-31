@@ -16,7 +16,7 @@ public class TestMissionAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    public TestMission testMission() {
+    public MissionService testMission() {
         return new TestMission(missionProperties.getPilotName());
     }
 
