@@ -26,6 +26,11 @@
             <artifactId>test-mission-spring-boot-autoconfigure</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>ru.bmsgroup</groupId>
+            <artifactId>web-mission-spring-boot-autoconfigure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

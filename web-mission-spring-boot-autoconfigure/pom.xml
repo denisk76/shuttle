@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.bmsgroup</groupId>
-    <artifactId>test-mission-spring-boot-autoconfigure</artifactId>
+    <artifactId>web-mission-spring-boot-autoconfigure</artifactId>
     <packaging>jar</packaging>
 
-    <name>test-mission-spring-boot-autoconfigure</name>
+    <name>web-mission-spring-boot-autoconfigure</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -35,18 +35,13 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>ru.bmsgroup</groupId>
-            <artifactId>mission</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>ru.bmsgroup</groupId>
-            <artifactId>test-mission</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ru.bmsgroup</groupId>
+            <artifactId>reactive-mission</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

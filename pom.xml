@@ -19,6 +19,8 @@
     <modules>
         <module>flight</module>
         <module>mission</module>
+        <module>plain-mission</module>
+        <module>reactive-mission</module>
         <module>great-mission-spring-boot-autoconfigure</module>
         <module>test-mission-spring-boot-autoconfigure</module>
         <module>mission-spring-boot-starter</module>
@@ -27,6 +29,8 @@
         <module>return-mission</module>
         <module>return-mission-spring-boot-autoconfigure</module>
         <module>return-mission-spring-boot-starter</module>
+        <module>reactive-return-mission</module>
+        <module>web-mission-spring-boot-autoconfigure</module>
     </modules>
     <dependencyManagement>
         <dependencies>
